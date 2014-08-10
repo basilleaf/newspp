@@ -1,9 +1,3 @@
-"""
-ps
-
-tail -f log.txt
-
-"""
 import newspaper
 import time
 
