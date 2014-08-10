@@ -45,5 +45,4 @@ for site in site_list:
         planet = 'noaa'
         # if planet in article.keywords or planet in article.title.lower():
         if planet in article.title.lower():
-            # print "found!   "
-            print article.title + ": " + article.url  # relieves an ascii/unicode error
+            print "%s: %s" % (str(article.title), str(article.url))
